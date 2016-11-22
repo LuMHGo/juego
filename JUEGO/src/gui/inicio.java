@@ -6,7 +6,12 @@
 package gui;
 
 import java.applet.AudioClip;
-import javax.swing.JOptionPane;
+import javax.swing.JOptionPane; 
+import java.io.BufferedInputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import javazoom.jl.decoder.JavaLayerException;
+import javazoom.jl.player.Player;
 
 /**
  *
@@ -18,8 +23,8 @@ public static AudioClip sonido;
      * Creates new form inicio
      */
     public inicio() {
-        initComponents();
-        sonido=java.applet.Applet.newAudioClip(getClass().getResource("/sonidos/Fries.wav"));
+        initComponents();      
+    //    sonido=java.applet.Applet.newAudioClip(getClass().getResource("/sonidos/Fries.wav"));
     }
 
     /**

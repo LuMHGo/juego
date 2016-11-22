@@ -6,18 +6,31 @@
 package gui;
 
 import java.applet.AudioClip;
-
+import javax.swing.JOptionPane; 
+import java.io.BufferedInputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.JFileChooser;
+import javax.swing.filechooser.FileNameExtensionFilter;
+import javazoom.jl.decoder.JavaLayerException;
+import javazoom.jl.player.Player;
+import java.io.*;
+import sun.audio.*;
 /**
  *
  * @author atlacoNET
  */
 public class menu_de_juegos extends javax.swing.JFrame {
-
     /**
      * Creates new form menu_de_juegos
      */
     public menu_de_juegos() {
         initComponents();
+       
     }
 
     /**
@@ -102,7 +115,9 @@ public class menu_de_juegos extends javax.swing.JFrame {
         PlayGame obj=new PlayGame();
         obj.setVisible(true);
         this.setVisible(false);
-        
+        AudioClip sonido;
+        sonido = java.applet.Applet.newAudioClip(getClass().getResource("/sonidos/Fries.wav"));
+        sonido.play();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed

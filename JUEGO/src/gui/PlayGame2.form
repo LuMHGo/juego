@@ -31,9 +31,7 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="354" max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
-              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="97" max="-2" attributes="0"/>
+              <EmptySpace min="97" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -41,13 +39,9 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
               <Component id="jPanel1" max="32767" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -106,33 +100,38 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="btnC4" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="btnC3" alignment="1" max="32767" attributes="0"/>
                       <Component id="btnC1" alignment="0" max="32767" attributes="0"/>
                       <Component id="btnC2" alignment="0" max="32767" attributes="0"/>
+                      <Component id="btnC4" alignment="0" pref="103" max="32767" attributes="0"/>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="btnC6" min="-2" max="-2" attributes="0"/>
-                      <Component id="btnC5" min="-2" max="-2" attributes="0"/>
-                      <Component id="btnC7" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="btnC8" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                          <Component id="btnC10" alignment="0" pref="105" max="32767" attributes="0"/>
-                          <Component id="btnC11" alignment="1" pref="0" max="32767" attributes="0"/>
-                          <Component id="btnC9" alignment="1" pref="0" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="btnC7" pref="121" max="32767" attributes="0"/>
+                              <Component id="btnC6" max="32767" attributes="0"/>
+                              <Component id="btnC5" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="btnC11" alignment="1" min="-2" pref="105" max="-2" attributes="0"/>
+                              <Component id="btnC10" alignment="1" min="-2" pref="105" max="-2" attributes="0"/>
+                              <Component id="btnC9" alignment="1" min="-2" pref="105" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
-                      <Component id="btnC12" pref="105" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Component id="btnC8" min="-2" pref="121" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="btnC12" min="-2" pref="105" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                      <Component id="btnC14" alignment="0" max="32767" attributes="0"/>
-                      <Component id="btnC15" max="32767" attributes="0"/>
-                      <Component id="btnC16" max="32767" attributes="0"/>
+                      <Component id="btnC14" pref="104" max="32767" attributes="0"/>
+                      <Component id="btnC15" alignment="1" max="32767" attributes="0"/>
+                      <Component id="btnC16" alignment="1" max="32767" attributes="0"/>
                       <Component id="btnC13" alignment="1" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
@@ -142,227 +141,96 @@
       </Layout>
       <SubComponents>
         <Component class="javax.swing.JButton" name="btnC1">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\c0.png"/>
-            </Property>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\cr.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnC1MouseExited"/>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnC1ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnC2">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\c0.png"/>
-            </Property>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\cr.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnC2MouseExited"/>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnC2ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnC3">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\c0.png"/>
-            </Property>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\cr.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnC3MouseExited"/>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnC3ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnC4">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\c0.png"/>
-            </Property>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\cr.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnC4MouseExited"/>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnC4ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnC5">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\c0.png"/>
-            </Property>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\cr.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnC5MouseExited"/>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnC5ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnC6">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\c0.png"/>
-            </Property>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\cr.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnC6MouseExited"/>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnC6ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnC7">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\c0.png"/>
-            </Property>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\cr.png"/>
-            </Property>
-            <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\cr.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnC7MouseExited"/>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnC7ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnC8">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\c0.png"/>
-            </Property>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\cr.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnC8MouseExited"/>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnC8ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnC9">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\c0.png"/>
-            </Property>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\cr.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnC9MouseExited"/>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnC9ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnC10">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\c0.png"/>
-            </Property>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\cr.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnC10MouseExited"/>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnC10ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnC11">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\c0.png"/>
-            </Property>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\cr.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnC11MouseExited"/>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnC11ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnC12">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\c0.png"/>
-            </Property>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\cr.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnC12MouseExited"/>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnC12ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnC13">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\c0.png"/>
-            </Property>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\cr.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnC13MouseExited"/>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnC13ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnC14">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\c0.png"/>
-            </Property>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\cr.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnC14MouseExited"/>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnC14ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnC15">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\c0.png"/>
-            </Property>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\cr.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnC15MouseExited"/>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnC15ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnC16">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\c0.png"/>
-            </Property>
-            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\atlacoNET\Desktop\Programacion orientada a objetos\JuegoDosCaras\src\imagenes\cr.png"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnC16MouseExited"/>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnC16ActionPerformed"/>
@@ -370,13 +238,5 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JButton" name="jButton1">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Reiniciar"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
-      </Events>
-    </Component>
   </SubComponents>
 </Form>

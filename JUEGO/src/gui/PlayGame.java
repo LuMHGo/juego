@@ -12,6 +12,11 @@ import java.awt.BorderLayout;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JOptionPane;
+import java.io.BufferedInputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import javazoom.jl.decoder.JavaLayerException;
+import javazoom.jl.player.Player;
 
 /**
  *
@@ -30,8 +35,7 @@ public class PlayGame extends javax.swing.JFrame {
     
     public PlayGame() {
         initComponents();
-        AudioClip sonido = java.applet.Applet.newAudioClip(getClass().getResource("/gui/Fries.mp3"));
-        sonido.play();
+        
         fondo = new VFondo(getWidth(), getHeight());
         add(fondo, BorderLayout.CENTER);
         setCards();
@@ -130,7 +134,6 @@ public class PlayGame extends javax.swing.JFrame {
         btnC7 = new javax.swing.JButton();
         btnC6 = new javax.swing.JButton();
         btnC5 = new javax.swing.JButton();
-        btnReiniciar = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -327,15 +330,6 @@ public class PlayGame extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        btnReiniciar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        btnReiniciar.setForeground(new java.awt.Color(0, 204, 0));
-        btnReiniciar.setText("Reiniciar");
-        btnReiniciar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnReiniciarActionPerformed(evt);
-            }
-        });
-
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("NIVEL 1");
@@ -349,12 +343,10 @@ public class PlayGame extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(jLabel1)
-                        .addGap(204, 204, 204))
+                        .addGap(319, 319, 319))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(jLabel2)
-                        .addGap(255, 255, 255)))
-                .addComponent(btnReiniciar)
-                .addGap(32, 32, 32))
+                        .addGap(370, 370, 370))))
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -363,14 +355,9 @@ public class PlayGame extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(btnReiniciar))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel1)
-                        .addGap(7, 7, 7)
-                        .addComponent(jLabel2)))
+                .addComponent(jLabel1)
+                .addGap(7, 7, 7)
+                .addComponent(jLabel2)
                 .addGap(18, 18, 18)
                 .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
@@ -379,10 +366,6 @@ public class PlayGame extends javax.swing.JFrame {
         setSize(new java.awt.Dimension(723, 351));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
-
-    private void btnReiniciarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnReiniciarActionPerformed
-        reiniciar();
-    }//GEN-LAST:event_btnReiniciarActionPerformed
 
     private void btnC5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnC5ActionPerformed
         btnEnabled(btnC5);
@@ -468,7 +451,6 @@ public class PlayGame extends javax.swing.JFrame {
     private javax.swing.JButton btnC6;
     private javax.swing.JButton btnC7;
     private javax.swing.JButton btnC8;
-    private javax.swing.JButton btnReiniciar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;

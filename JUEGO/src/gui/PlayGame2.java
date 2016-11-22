@@ -152,7 +152,6 @@ public class PlayGame2 extends javax.swing.JFrame {
         btnC14 = new javax.swing.JButton();
         btnC15 = new javax.swing.JButton();
         btnC16 = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -160,8 +159,6 @@ public class PlayGame2 extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("NIVEL 2");
 
-        btnC1.setIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\c0.png")); // NOI18N
-        btnC1.setRolloverIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\cr.png")); // NOI18N
         btnC1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 btnC1MouseExited(evt);
@@ -173,8 +170,6 @@ public class PlayGame2 extends javax.swing.JFrame {
             }
         });
 
-        btnC2.setIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\c0.png")); // NOI18N
-        btnC2.setRolloverIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\cr.png")); // NOI18N
         btnC2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 btnC2MouseExited(evt);
@@ -186,8 +181,6 @@ public class PlayGame2 extends javax.swing.JFrame {
             }
         });
 
-        btnC3.setIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\c0.png")); // NOI18N
-        btnC3.setRolloverIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\cr.png")); // NOI18N
         btnC3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 btnC3MouseExited(evt);
@@ -199,8 +192,6 @@ public class PlayGame2 extends javax.swing.JFrame {
             }
         });
 
-        btnC4.setIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\c0.png")); // NOI18N
-        btnC4.setRolloverIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\cr.png")); // NOI18N
         btnC4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 btnC4MouseExited(evt);
@@ -212,8 +203,6 @@ public class PlayGame2 extends javax.swing.JFrame {
             }
         });
 
-        btnC5.setIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\c0.png")); // NOI18N
-        btnC5.setRolloverIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\cr.png")); // NOI18N
         btnC5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 btnC5MouseExited(evt);
@@ -225,8 +214,6 @@ public class PlayGame2 extends javax.swing.JFrame {
             }
         });
 
-        btnC6.setIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\c0.png")); // NOI18N
-        btnC6.setRolloverIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\cr.png")); // NOI18N
         btnC6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 btnC6MouseExited(evt);
@@ -238,9 +225,6 @@ public class PlayGame2 extends javax.swing.JFrame {
             }
         });
 
-        btnC7.setIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\c0.png")); // NOI18N
-        btnC7.setRolloverIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\cr.png")); // NOI18N
-        btnC7.setSelectedIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\cr.png")); // NOI18N
         btnC7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 btnC7MouseExited(evt);
@@ -252,8 +236,6 @@ public class PlayGame2 extends javax.swing.JFrame {
             }
         });
 
-        btnC8.setIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\c0.png")); // NOI18N
-        btnC8.setRolloverIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\cr.png")); // NOI18N
         btnC8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 btnC8MouseExited(evt);
@@ -265,8 +247,6 @@ public class PlayGame2 extends javax.swing.JFrame {
             }
         });
 
-        btnC9.setIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\c0.png")); // NOI18N
-        btnC9.setRolloverIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\cr.png")); // NOI18N
         btnC9.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 btnC9MouseExited(evt);
@@ -278,8 +258,6 @@ public class PlayGame2 extends javax.swing.JFrame {
             }
         });
 
-        btnC10.setIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\c0.png")); // NOI18N
-        btnC10.setRolloverIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\cr.png")); // NOI18N
         btnC10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 btnC10MouseExited(evt);
@@ -291,8 +269,6 @@ public class PlayGame2 extends javax.swing.JFrame {
             }
         });
 
-        btnC11.setIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\c0.png")); // NOI18N
-        btnC11.setRolloverIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\cr.png")); // NOI18N
         btnC11.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 btnC11MouseExited(evt);
@@ -304,8 +280,6 @@ public class PlayGame2 extends javax.swing.JFrame {
             }
         });
 
-        btnC12.setIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\c0.png")); // NOI18N
-        btnC12.setRolloverIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\cr.png")); // NOI18N
         btnC12.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 btnC12MouseExited(evt);
@@ -317,8 +291,6 @@ public class PlayGame2 extends javax.swing.JFrame {
             }
         });
 
-        btnC13.setIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\c0.png")); // NOI18N
-        btnC13.setRolloverIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\cr.png")); // NOI18N
         btnC13.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 btnC13MouseExited(evt);
@@ -330,8 +302,6 @@ public class PlayGame2 extends javax.swing.JFrame {
             }
         });
 
-        btnC14.setIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\c0.png")); // NOI18N
-        btnC14.setRolloverIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\cr.png")); // NOI18N
         btnC14.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 btnC14MouseExited(evt);
@@ -343,8 +313,6 @@ public class PlayGame2 extends javax.swing.JFrame {
             }
         });
 
-        btnC15.setIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\c0.png")); // NOI18N
-        btnC15.setRolloverIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\cr.png")); // NOI18N
         btnC15.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 btnC15MouseExited(evt);
@@ -356,8 +324,6 @@ public class PlayGame2 extends javax.swing.JFrame {
             }
         });
 
-        btnC16.setIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\c0.png")); // NOI18N
-        btnC16.setRolloverIcon(new javax.swing.ImageIcon("C:\\Users\\atlacoNET\\Desktop\\Programacion orientada a objetos\\JuegoDosCaras\\src\\imagenes\\cr.png")); // NOI18N
         btnC16.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 btnC16MouseExited(evt);
@@ -404,39 +370,35 @@ public class PlayGame2 extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(20, 20, 20)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(btnC4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(btnC3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnC1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btnC2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(btnC2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnC4, javax.swing.GroupLayout.DEFAULT_SIZE, 103, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnC6)
-                    .addComponent(btnC5)
-                    .addComponent(btnC7)
-                    .addComponent(btnC8))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(btnC10, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 105, Short.MAX_VALUE)
-                        .addComponent(btnC11, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                        .addComponent(btnC9, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
-                    .addComponent(btnC12, javax.swing.GroupLayout.PREFERRED_SIZE, 105, Short.MAX_VALUE))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(btnC7, javax.swing.GroupLayout.DEFAULT_SIZE, 121, Short.MAX_VALUE)
+                            .addComponent(btnC6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnC5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(6, 6, 6)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btnC11, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnC10, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnC9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(btnC8, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btnC12, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(btnC14, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnC14, javax.swing.GroupLayout.DEFAULT_SIZE, 104, Short.MAX_VALUE)
                     .addComponent(btnC15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnC16, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnC13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(19, 19, 19))
         );
-
-        jButton1.setText("Reiniciar");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -449,20 +411,15 @@ public class PlayGame2 extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(354, 354, 354)
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton1)
-                .addGap(97, 97, 97))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(jButton1))
-                .addGap(18, 18, 18)
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+                .addComponent(jLabel1)
+                .addGap(33, 33, 33)
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
@@ -475,11 +432,6 @@ public class PlayGame2 extends javax.swing.JFrame {
         // TODO add your handling code here:
         btnEnabled(btnC11);
     }//GEN-LAST:event_btnC11ActionPerformed
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-        reiniciar();
-    }//GEN-LAST:event_jButton1ActionPerformed
 
     private void btnC1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnC1ActionPerformed
         // TODO add your handling code here:
@@ -656,7 +608,6 @@ public class PlayGame2 extends javax.swing.JFrame {
     private javax.swing.JButton btnC7;
     private javax.swing.JButton btnC8;
     private javax.swing.JButton btnC9;
-    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
