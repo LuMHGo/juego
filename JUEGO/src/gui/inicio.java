@@ -111,7 +111,7 @@ public static AudioClip sonido;
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        JOptionPane.showMessageDialog(null,"Juego creado por Alvaro Garcia Galicia");
+        JOptionPane.showMessageDialog(null,"Juego creado por:\n Alvaro Garcia Galicia\nHeivilina Perez Arias");
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
